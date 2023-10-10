@@ -1,0 +1,986 @@
+[INFO]caseLogsMethod.py:24-16:03:S.061 >> abc 
+[INFO]caseLogsMethod.py:24-16:03:S.739 >> abc 
+[INFO]caseLogsMethod.py:25-16:03:S.754 >> 12345 
+[INFO]caseLogsMethod.py:49-16:06:S.570 >> abc 
+[INFO]caseLogsMethod.py:50-16:06:S.585 >> 12345 
+[INFO]caseLogsMethod.py:49-16:07:S.460 >> abc 
+[INFO]caseLogsMethod.py:50-16:07:S.476 >> 12345 
+[INFO]caseLogsMethod.py:49-16:08:S.840 >> abc 
+[INFO]caseLogsMethod.py:50-16:08:S.855 >> 12345 
+[INFO]caseLogsMethod.py:49-16:08:S.734 >> abc 
+[INFO]caseLogsMethod.py:50-16:08:S.747 >> 12345 
+[INFO]test_level1.py:34-16:17:S.439 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:54-16:17:S.911 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:17:S.058 >> 必填项校验的字段{'key': 'noteId', 'code': 500} 
+[INFO]test_level1.py:66-16:17:S.068 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:17:S.227 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:17:S.341 >> 必填项校验的字段{'key': 'title', 'code': 200} 
+[INFO]test_level1.py:66-16:17:S.346 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:17:S.498 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:17:S.659 >> 必填项校验的字段{'key': 'summary', 'code': 200} 
+[INFO]test_level1.py:66-16:17:S.669 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:17:S.832 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:17:S.988 >> 必填项校验的字段{'key': 'body', 'code': 412} 
+[INFO]test_level1.py:66-16:17:S.003 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:17:S.152 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:17:S.264 >> 必填项校验的字段{'key': 'localContentVersion', 'code': 200} 
+[INFO]test_level1.py:66-16:17:S.268 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:17:S.426 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:17:S.585 >> 必填项校验的字段{'key': 'BodyType', 'code': 200} 
+[INFO]test_level1.py:66-16:17:S.588 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:17:S.827 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:73-16:19:S.824 >> abc 
+[INFO]caseLogsMethod.py:74-16:19:S.836 >> 12345 
+[INFO]test_level1.py:34-16:20:S.464 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:54-16:20:S.716 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:20:S.908 >> 必填项校验的字段{'key': 'noteId', 'code': 500} 
+[INFO]test_level1.py:66-16:20:S.918 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:20:S.074 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:20:S.202 >> 必填项校验的字段{'key': 'title', 'code': 200} 
+[INFO]test_level1.py:66-16:20:S.212 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:20:S.384 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:20:S.577 >> 必填项校验的字段{'key': 'summary', 'code': 200} 
+[INFO]test_level1.py:66-16:20:S.587 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:20:S.772 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:20:S.921 >> 必填项校验的字段{'key': 'body', 'code': 412} 
+[INFO]test_level1.py:66-16:20:S.931 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:20:S.143 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:20:S.276 >> 必填项校验的字段{'key': 'localContentVersion', 'code': 200} 
+[INFO]test_level1.py:66-16:20:S.286 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:20:S.429 >> 操作：新增便签内容 
+[INFO]test_level1.py:65-16:20:S.573 >> 必填项校验的字段{'key': 'BodyType', 'code': 200} 
+[INFO]test_level1.py:66-16:20:S.577 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:20:S.729 >> 操作：新增便签内容 
+[INFO]test_level1.py:33-16:22:S.415 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:53-16:22:S.632 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.774 >> 必填项校验的字段{'key': 'noteId', 'code': 500} 
+[INFO]test_level1.py:65-16:22:S.781 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.932 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.059 >> 必填项校验的字段{'key': 'title', 'code': 200} 
+[INFO]test_level1.py:65-16:22:S.062 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.196 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.342 >> 必填项校验的字段{'key': 'summary', 'code': 200} 
+[INFO]test_level1.py:65-16:22:S.353 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.496 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.653 >> 必填项校验的字段{'key': 'body', 'code': 412} 
+[INFO]test_level1.py:65-16:22:S.662 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.816 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.936 >> 必填项校验的字段{'key': 'localContentVersion', 'code': 200} 
+[INFO]test_level1.py:65-16:22:S.943 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.083 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.233 >> 必填项校验的字段{'key': 'BodyType', 'code': 200} 
+[INFO]test_level1.py:65-16:22:S.236 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.371 >> 操作：新增便签内容 
+[INFO]test_level1.py:33-16:22:S.932 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:53-16:22:S.150 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.306 >> 必填项校验的字段{'key': 'noteId', 'code': 500} 
+[INFO]test_level1.py:65-16:22:S.316 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.471 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.588 >> 必填项校验的字段{'key': 'title', 'code': 200} 
+[INFO]test_level1.py:65-16:22:S.598 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.755 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.919 >> 必填项校验的字段{'key': 'summary', 'code': 200} 
+[INFO]test_level1.py:65-16:22:S.929 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.100 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.257 >> 必填项校验的字段{'key': 'body', 'code': 412} 
+[INFO]test_level1.py:65-16:22:S.267 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.421 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.543 >> 必填项校验的字段{'key': 'localContentVersion', 'code': 200} 
+[INFO]test_level1.py:65-16:22:S.549 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.708 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:22:S.851 >> 必填项校验的字段{'key': 'BodyType', 'code': 200} 
+[INFO]test_level1.py:65-16:22:S.853 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:22:S.009 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:73-16:23:S.736 >> abc 
+[INFO]caseLogsMethod.py:74-16:23:S.750 >> 12345 
+[INFO]test_level1.py:33-16:23:S.645 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:53-16:23:S.861 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:23:S.006 >> 必填项校验的字段{'key': 'noteId', 'code': 500} 
+[INFO]test_level1.py:65-16:23:S.017 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:23:S.163 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:23:S.282 >> 必填项校验的字段{'key': 'title', 'code': 200} 
+[INFO]test_level1.py:65-16:23:S.291 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:23:S.442 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:23:S.600 >> 必填项校验的字段{'key': 'summary', 'code': 200} 
+[INFO]test_level1.py:65-16:23:S.606 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:23:S.755 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:23:S.897 >> 必填项校验的字段{'key': 'body', 'code': 412} 
+[INFO]test_level1.py:65-16:23:S.906 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:23:S.065 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:23:S.187 >> 必填项校验的字段{'key': 'localContentVersion', 'code': 200} 
+[INFO]test_level1.py:65-16:23:S.198 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:23:S.345 >> 操作：新增便签内容 
+[INFO]test_level1.py:64-16:23:S.489 >> 必填项校验的字段{'key': 'BodyType', 'code': 200} 
+[INFO]test_level1.py:65-16:23:S.499 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:23:S.647 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:24:S.817 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:24:S.888 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:24:S.891 >> Method Name: testcase01_major 
+[INFO]caseLogsMethod.py:59-16:24:S.894 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:33-16:24:S.896 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:53-16:24:S.089 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:24:S.289 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:53-16:25:S.998 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:25:S.066 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:25:S.069 >> Method Name: testcase01_major 
+[INFO]caseLogsMethod.py:59-16:25:S.071 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:33-16:25:S.074 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:53-16:25:S.249 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:25:S.426 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:25:S.434 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:25:S.439 >> Method Name: testcase02_must_input 
+[INFO]caseLogsMethod.py:59-16:25:S.443 >> Test Description: 上传/更新便签内容 必填项校验 
+[INFO]test_level1.py:65-16:25:S.446 >> 必填项校验的字段{'key': 'noteId', 'code': 500} 
+[INFO]test_level1.py:66-16:25:S.450 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:25:S.630 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:25:S.748 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:25:S.750 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:25:S.752 >> Method Name: testcase02_must_input 
+[INFO]caseLogsMethod.py:59-16:25:S.755 >> Test Description: 上传/更新便签内容 必填项校验 
+[INFO]test_level1.py:65-16:25:S.757 >> 必填项校验的字段{'key': 'title', 'code': 200} 
+[INFO]test_level1.py:66-16:25:S.760 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:25:S.934 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:25:S.074 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:25:S.077 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:25:S.079 >> Method Name: testcase02_must_input 
+[INFO]caseLogsMethod.py:59-16:25:S.082 >> Test Description: 上传/更新便签内容 必填项校验 
+[INFO]test_level1.py:65-16:25:S.085 >> 必填项校验的字段{'key': 'summary', 'code': 200} 
+[INFO]test_level1.py:66-16:25:S.088 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:25:S.236 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:25:S.429 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:25:S.435 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:25:S.443 >> Method Name: testcase02_must_input 
+[INFO]caseLogsMethod.py:59-16:25:S.449 >> Test Description: 上传/更新便签内容 必填项校验 
+[INFO]test_level1.py:65-16:25:S.454 >> 必填项校验的字段{'key': 'body', 'code': 412} 
+[INFO]test_level1.py:66-16:25:S.461 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:25:S.622 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:25:S.763 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:25:S.773 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:25:S.782 >> Method Name: testcase02_must_input 
+[INFO]caseLogsMethod.py:59-16:25:S.791 >> Test Description: 上传/更新便签内容 必填项校验 
+[INFO]test_level1.py:65-16:25:S.795 >> 必填项校验的字段{'key': 'localContentVersion', 'code': 200} 
+[INFO]test_level1.py:66-16:25:S.798 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:25:S.959 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:25:S.130 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:25:S.140 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:25:S.149 >> Method Name: testcase02_must_input 
+[INFO]caseLogsMethod.py:59-16:25:S.154 >> Test Description: 上传/更新便签内容 必填项校验 
+[INFO]test_level1.py:65-16:25:S.158 >> 必填项校验的字段{'key': 'BodyType', 'code': 200} 
+[INFO]test_level1.py:66-16:25:S.163 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:93-16:25:S.322 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:27:S.111 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:27:S.182 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:27:S.185 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-16:27:S.189 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:33-16:27:S.192 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:53-16:27:S.364 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:27:S.519 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:27:S.528 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:27:S.537 >> Method Name: testCase02_must_input_0 
+[INFO]caseLogsMethod.py:59-16:27:S.546 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'noteId', 'code': 500}] 
+[INFO]test_level1.py:64-16:27:S.552 >> 必填项校验的字段{'key': 'noteId', 'code': 500} 
+[INFO]test_level1.py:65-16:27:S.556 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:27:S.699 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:27:S.834 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:27:S.843 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:27:S.851 >> Method Name: testCase02_must_input_1 
+[INFO]caseLogsMethod.py:59-16:27:S.856 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'title', 'code': 200}] 
+[INFO]test_level1.py:64-16:27:S.861 >> 必填项校验的字段{'key': 'title', 'code': 200} 
+[INFO]test_level1.py:65-16:27:S.866 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:27:S.015 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:27:S.167 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:27:S.176 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:27:S.184 >> Method Name: testCase02_must_input_2 
+[INFO]caseLogsMethod.py:59-16:27:S.189 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'summary', 'code': 200}] 
+[INFO]test_level1.py:64-16:27:S.194 >> 必填项校验的字段{'key': 'summary', 'code': 200} 
+[INFO]test_level1.py:65-16:27:S.200 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:27:S.355 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:27:S.532 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:27:S.536 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:27:S.541 >> Method Name: testCase02_must_input_3 
+[INFO]caseLogsMethod.py:59-16:27:S.545 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'body', 'code': 412}] 
+[INFO]test_level1.py:64-16:27:S.550 >> 必填项校验的字段{'key': 'body', 'code': 412} 
+[INFO]test_level1.py:65-16:27:S.555 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:27:S.701 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:27:S.821 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:27:S.829 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:27:S.838 >> Method Name: testCase02_must_input_4 
+[INFO]caseLogsMethod.py:59-16:27:S.843 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'localContentVersion', 'code': 200}] 
+[INFO]test_level1.py:64-16:27:S.847 >> 必填项校验的字段{'key': 'localContentVersion', 'code': 200} 
+[INFO]test_level1.py:65-16:27:S.851 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:27:S.081 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:27:S.242 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:27:S.245 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:27:S.249 >> Method Name: testCase02_must_input_5 
+[INFO]caseLogsMethod.py:59-16:27:S.253 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'BodyType', 'code': 200}] 
+[INFO]test_level1.py:64-16:27:S.257 >> 必填项校验的字段{'key': 'BodyType', 'code': 200} 
+[INFO]test_level1.py:65-16:27:S.261 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:92-16:27:S.403 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-16:50:S.997 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-16:50:S.067 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-16:50:S.070 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-16:50:S.073 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:33-16:50:S.075 >> STEP:获取便签主体版本 
+[INFO]test_level1.py:55-16:50:S.219 >> STEP:新增便签内容 
+[INFO]test_level1.py:56-16:50:S.219 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]test_level1.py:57-16:50:S.235 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:58-16:50:S.235 >> body:{'noteId': '1695891023079_test_noteId', 'title': '1695891023219_test_title', 'summary': '1695891023219_test_summary', 'body': '1695891023219_test_body', 'localContentVersion': 1, 'BodyType': 0} 
+[INFO]test_level1.py:60-16:50:S.389 >> res code:200 
+[INFO]test_level1.py:61-16:50:S.393 >> res body:{'responseTime': 31, 'contentVersion': 1, 'contentUpdateTime': 1695891023122} 
+[INFO]caseLogsMethod.py:53-17:01:S.372 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:01:S.440 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:01:S.443 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:01:S.446 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:33-17:01:S.449 >> STEP:获取便签主体版本 
+[INFO]test_level1.py:55-17:01:S.608 >> STEP:新增便签内容 
+[INFO]test_level1.py:56-17:01:S.616 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]test_level1.py:57-17:01:S.624 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:58-17:01:S.632 >> body:{'noteId': '1695891684451_test_noteId', 'title': '1695891684608_test_title', 'summary': '1695891684608_test_summary', 'body': '1695891684608_test_body', 'localContentVersion': 1, 'BodyType': 0} 
+[INFO]test_level1.py:60-17:01:S.778 >> res code:200 
+[INFO]test_level1.py:61-17:01:S.781 >> res body:{'responseTime': 30, 'contentVersion': 1, 'contentUpdateTime': 1695891684478} 
+[INFO]caseLogsMethod.py:53-17:01:S.785 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:01:S.788 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:01:S.792 >> Method Name: testCase02_must_input_0 
+[INFO]caseLogsMethod.py:59-17:01:S.797 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'noteId', 'code': 500}] 
+[INFO]test_level1.py:70-17:01:S.801 >> 必填项校验的字段{'key': 'noteId', 'code': 500} 
+[INFO]test_level1.py:71-17:01:S.806 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:98-17:01:S.955 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:01:S.071 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:01:S.074 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:01:S.078 >> Method Name: testCase02_must_input_1 
+[INFO]caseLogsMethod.py:59-17:01:S.082 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'title', 'code': 200}] 
+[INFO]test_level1.py:70-17:01:S.085 >> 必填项校验的字段{'key': 'title', 'code': 200} 
+[INFO]test_level1.py:71-17:01:S.088 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:98-17:01:S.255 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:01:S.399 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:01:S.401 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:01:S.405 >> Method Name: testCase02_must_input_2 
+[INFO]caseLogsMethod.py:59-17:01:S.407 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'summary', 'code': 200}] 
+[INFO]test_level1.py:70-17:01:S.409 >> 必填项校验的字段{'key': 'summary', 'code': 200} 
+[INFO]test_level1.py:71-17:01:S.413 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:98-17:01:S.864 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:01:S.032 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:01:S.044 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:01:S.051 >> Method Name: testCase02_must_input_3 
+[INFO]caseLogsMethod.py:59-17:01:S.056 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'body', 'code': 412}] 
+[INFO]test_level1.py:70-17:01:S.060 >> 必填项校验的字段{'key': 'body', 'code': 412} 
+[INFO]test_level1.py:71-17:01:S.066 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:98-17:01:S.254 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:01:S.384 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:01:S.393 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:01:S.402 >> Method Name: testCase02_must_input_4 
+[INFO]caseLogsMethod.py:59-17:01:S.409 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'localContentVersion', 'code': 200}] 
+[INFO]test_level1.py:70-17:01:S.412 >> 必填项校验的字段{'key': 'localContentVersion', 'code': 200} 
+[INFO]test_level1.py:71-17:01:S.416 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:98-17:01:S.581 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:01:S.758 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:01:S.768 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:01:S.773 >> Method Name: testCase02_must_input_5 
+[INFO]caseLogsMethod.py:59-17:01:S.778 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'BodyType', 'code': 200}] 
+[INFO]test_level1.py:70-17:01:S.784 >> 必填项校验的字段{'key': 'BodyType', 'code': 200} 
+[INFO]test_level1.py:71-17:01:S.790 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:98-17:01:S.951 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:03:S.907 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:03:S.986 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:03:S.989 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:03:S.992 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:36-17:03:S.995 >> STEP:获取便签主体版本 
+[INFO]test_level1.py:57-17:03:S.163 >> STEP:新增便签内容 
+[INFO]test_level1.py:58-17:03:S.170 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]test_level1.py:59-17:03:S.176 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:60-17:03:S.182 >> body:{'noteId': '1695891822997_test_noteId', 'title': '1695891823163_test_title', 'summary': '1695891823163_test_summary', 'body': '1695891823163_test_body', 'localContentVersion': 1, 'BodyType': 0} 
+[INFO]test_level1.py:62-17:03:S.326 >> res code:200 
+[INFO]test_level1.py:63-17:03:S.335 >> res body:{'responseTime': 34, 'contentVersion': 1, 'contentUpdateTime': 1695891823002} 
+[INFO]caseLogsMethod.py:53-17:05:S.935 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:05:S.998 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:05:S.001 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:05:S.005 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:36-17:05:S.007 >> STEP:获取便签主体版本 
+[INFO]test_level1.py:41-17:05:S.010 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:42-17:05:S.012 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:43-17:05:S.016 >> body:{'noteId': '1695891929009_test_noteId'} 
+[INFO]test_level1.py:45-17:05:S.202 >> res code:200 
+[INFO]test_level1.py:46-17:05:S.211 >> res body:{'responseTime': 63, 'infoVersion': 1, 'infoUpdateTime': 1695891928858} 
+[INFO]test_level1.py:48-17:05:S.221 >> info_version:1 
+[INFO]test_level1.py:61-17:05:S.231 >> STEP:新增便签内容 
+[INFO]test_level1.py:62-17:05:S.236 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]test_level1.py:63-17:05:S.240 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:64-17:05:S.243 >> body:{'noteId': '1695891929009_test_noteId', 'title': '1695891929231_test_title', 'summary': '1695891929231_test_summary', 'body': '1695891929231_test_body', 'localContentVersion': 1, 'BodyType': 0} 
+[INFO]test_level1.py:66-17:05:S.405 >> res code:200 
+[INFO]test_level1.py:67-17:05:S.415 >> res body:{'responseTime': 33, 'contentVersion': 1, 'contentUpdateTime': 1695891929095} 
+[INFO]caseLogsMethod.py:53-17:06:S.311 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:06:S.389 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:06:S.393 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:06:S.395 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:36-17:06:S.397 >> STEP:获取便签主体版本 
+[INFO]test_level1.py:41-17:06:S.401 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:42-17:06:S.403 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:43-17:06:S.409 >> body:{'noteId': '1695891983401_test_noteId'} 
+[INFO]test_level1.py:45-17:06:S.679 >> res code:200 
+[INFO]test_level1.py:46-17:06:S.683 >> res body:{'responseTime': 69, 'infoVersion': 1, 'infoUpdateTime': 1695891983334} 
+[INFO]test_level1.py:48-17:06:S.686 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:61-17:06:S.691 >> STEP:新增便签内容 
+[INFO]test_level1.py:62-17:06:S.695 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]test_level1.py:63-17:06:S.698 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:64-17:06:S.701 >> body:{'noteId': '1695891983401_test_noteId', 'title': '1695891983691_test_title', 'summary': '1695891983691_test_summary', 'body': '1695891983691_test_body', 'localContentVersion': 1, 'BodyType': 0} 
+[INFO]test_level1.py:66-17:06:S.875 >> res code:200 
+[INFO]test_level1.py:67-17:06:S.877 >> res body:{'responseTime': 60, 'contentVersion': 1, 'contentUpdateTime': 1695891983566} 
+[INFO]caseLogsMethod.py:53-17:08:S.758 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:08:S.832 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:08:S.835 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:08:S.838 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:34-17:08:S.840 >> STEP:获取便签主体版本 
+[INFO]test_level1.py:39-17:08:S.843 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:40-17:08:S.846 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:41-17:08:S.851 >> body:{'noteId': '1695892110843_test_noteId'} 
+[INFO]test_level1.py:43-17:08:S.999 >> res code:200 
+[INFO]test_level1.py:44-17:08:S.002 >> res body:{'responseTime': 30, 'infoVersion': 1, 'infoUpdateTime': 1695892110684} 
+[INFO]test_level1.py:46-17:08:S.005 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:59-17:08:S.007 >> STEP:新增便签内容 
+[INFO]test_level1.py:60-17:08:S.010 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]test_level1.py:61-17:08:S.012 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:62-17:08:S.016 >> body:{'noteId': '1695892110843_test_noteId', 'title': '1695892111007_test_title', 'summary': '1695892111007_test_summary', 'body': '1695892111007_test_body', 'localContentVersion': 1, 'BodyType': 0} 
+[INFO]test_level1.py:64-17:08:S.181 >> res code:200 
+[INFO]test_level1.py:65-17:08:S.184 >> res body:{'responseTime': 47, 'contentVersion': 1, 'contentUpdateTime': 1695892110862} 
+[INFO]caseLogsMethod.py:53-17:08:S.003 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:08:S.070 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:08:S.073 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:08:S.075 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:34-17:08:S.077 >> STEP:获取便签主体版本 
+[INFO]test_level1.py:39-17:08:S.084 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:40-17:08:S.086 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:41-17:08:S.091 >> body:{'noteId': '1695892115084_test_noteId'} 
+[INFO]test_level1.py:43-17:08:S.241 >> res code:200 
+[INFO]test_level1.py:44-17:08:S.244 >> res body:{'responseTime': 30, 'infoVersion': 1, 'infoUpdateTime': 1695892114925} 
+[INFO]test_level1.py:46-17:08:S.248 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:59-17:08:S.251 >> STEP:新增便签内容 
+[INFO]test_level1.py:60-17:08:S.254 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]test_level1.py:61-17:08:S.256 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]test_level1.py:62-17:08:S.259 >> body:{'noteId': '1695892115084_test_noteId', 'title': '1695892115251_test_title', 'summary': '1695892115251_test_summary', 'body': '1695892115251_test_body', 'localContentVersion': 1, 'BodyType': 0} 
+[INFO]test_level1.py:64-17:08:S.408 >> res code:200 
+[INFO]test_level1.py:65-17:08:S.416 >> res body:{'responseTime': 27, 'contentVersion': 1, 'contentUpdateTime': 1695892115098} 
+[INFO]caseLogsMethod.py:53-17:08:S.425 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:08:S.432 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:08:S.436 >> Method Name: testCase02_must_input_0 
+[INFO]caseLogsMethod.py:59-17:08:S.496 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'noteId', 'code': 500}] 
+[INFO]test_level1.py:73-17:08:S.499 >> 必填项校验的字段{'key': 'noteId', 'code': 500} 
+[INFO]test_level1.py:74-17:08:S.503 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:101-17:08:S.646 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:08:S.767 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:08:S.769 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:08:S.772 >> Method Name: testCase02_must_input_1 
+[INFO]caseLogsMethod.py:59-17:08:S.775 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'title', 'code': 200}] 
+[INFO]test_level1.py:73-17:08:S.779 >> 必填项校验的字段{'key': 'title', 'code': 200} 
+[INFO]test_level1.py:74-17:08:S.784 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:101-17:08:S.940 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:08:S.093 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:08:S.099 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:08:S.102 >> Method Name: testCase02_must_input_2 
+[INFO]caseLogsMethod.py:59-17:08:S.105 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'summary', 'code': 200}] 
+[INFO]test_level1.py:73-17:08:S.108 >> 必填项校验的字段{'key': 'summary', 'code': 200} 
+[INFO]test_level1.py:74-17:08:S.112 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:101-17:08:S.265 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:08:S.399 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:08:S.401 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:08:S.404 >> Method Name: testCase02_must_input_3 
+[INFO]caseLogsMethod.py:59-17:08:S.406 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'body', 'code': 412}] 
+[INFO]test_level1.py:73-17:08:S.408 >> 必填项校验的字段{'key': 'body', 'code': 412} 
+[INFO]test_level1.py:74-17:08:S.410 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:101-17:08:S.567 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:08:S.679 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:08:S.682 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:08:S.684 >> Method Name: testCase02_must_input_4 
+[INFO]caseLogsMethod.py:59-17:08:S.687 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'localContentVersion', 'code': 200}] 
+[INFO]test_level1.py:73-17:08:S.689 >> 必填项校验的字段{'key': 'localContentVersion', 'code': 200} 
+[INFO]test_level1.py:74-17:08:S.691 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:101-17:08:S.832 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:08:S.988 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:08:S.999 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:08:S.009 >> Method Name: testCase02_must_input_5 
+[INFO]caseLogsMethod.py:59-17:08:S.021 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'BodyType', 'code': 200}] 
+[INFO]test_level1.py:73-17:08:S.026 >> 必填项校验的字段{'key': 'BodyType', 'code': 200} 
+[INFO]test_level1.py:74-17:08:S.034 >> 前置：获取便签主体版本 
+[INFO]test_level1.py:101-17:08:S.185 >> 操作：新增便签内容 
+[INFO]caseLogsMethod.py:53-17:32:S.833 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:32:S.904 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:32:S.907 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:32:S.909 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:29-17:32:S.912 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:19-17:32:S.915 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:20-17:32:S.918 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:21-17:32:S.921 >> body:{"noteId": "1695893559915_test_noteId"} 
+[INFO]caseLogsMethod.py:53-17:36:S.572 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:36:S.647 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:36:S.649 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:36:S.652 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:29-17:36:S.655 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:19-17:36:S.659 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:20-17:36:S.663 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]apiRe.py:21-17:36:S.668 >> body:{'noteId': '1695893768659_test_noteId'} 
+[INFO]apiRe.py:23-17:36:S.844 >> res code:200 
+[INFO]apiRe.py:24-17:36:S.852 >> res body:{'responseTime': 42, 'infoVersion': 1, 'infoUpdateTime': 1695893768549} 
+[INFO]test_level1.py:37-17:36:S.859 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:47-17:36:S.866 >> STEP:新增便签内容 
+[INFO]apiRe.py:19-17:36:S.872 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:20-17:36:S.879 >> headers:{'Content-Type': 'application/json', 'X-user-key': '229478081', 'Cookie': 'wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1'} 
+[INFO]apiRe.py:21-17:36:S.882 >> body:{'noteId': '1695893768659_test_noteId', 'title': 'test_title', 'summary': 'test_summary', 'body': 'test_body', 'localContentVersion': 1, 'BodyType': 0} 
+[INFO]apiRe.py:23-17:36:S.043 >> res code:200 
+[INFO]apiRe.py:24-17:36:S.052 >> res body:{'responseTime': 42, 'contentVersion': 1, 'contentUpdateTime': 1695893768733} 
+[INFO]caseLogsMethod.py:53-17:37:S.523 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:37:S.587 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:37:S.590 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:37:S.592 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:29-17:37:S.594 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:37:S.597 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:37:S.600 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:37:S.604 >> body:{"noteId": "1695893822597_test_noteId"} 
+[INFO]apiRe.py:22-17:37:S.754 >> res code:200 
+[INFO]apiRe.py:23-17:37:S.764 >> res body:{'responseTime': 25, 'infoVersion': 1, 'infoUpdateTime': 1695893822456} 
+[INFO]test_level1.py:37-17:37:S.773 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:47-17:37:S.782 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:37:S.791 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:37:S.795 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:37:S.800 >> body:{"noteId": "1695893822597_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:37:S.942 >> res code:200 
+[INFO]apiRe.py:23-17:37:S.945 >> res body:{'responseTime': 31, 'contentVersion': 1, 'contentUpdateTime': 1695893822664} 
+[INFO]caseLogsMethod.py:53-17:48:S.255 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:48:S.327 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:48:S.329 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:48:S.332 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:29-17:48:S.334 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:48:S.337 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:48:S.341 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:48:S.344 >> body:{"noteId": "1695894526337_test_noteId"} 
+[INFO]apiRe.py:22-17:48:S.500 >> res code:200 
+[INFO]apiRe.py:23-17:48:S.503 >> res body:{'responseTime': 30, 'infoVersion': 1, 'infoUpdateTime': 1695894526206} 
+[INFO]test_level1.py:37-17:48:S.506 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:47-17:48:S.510 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:48:S.513 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:48:S.516 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:48:S.520 >> body:{"noteId": "1695894526337_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:48:S.663 >> res code:200 
+[INFO]apiRe.py:23-17:48:S.666 >> res body:{'responseTime': 37, 'contentVersion': 1, 'contentUpdateTime': 1695894526370} 
+[INFO]caseLogsMethod.py:53-17:48:S.670 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:48:S.673 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:48:S.675 >> Method Name: testCase02_must_input_0 
+[INFO]caseLogsMethod.py:59-17:48:S.678 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'noteId', 'code': 500}] 
+[INFO]test_level1.py:57-17:48:S.680 >> STEP:获取便签主体版本 
+[INFO]caseLogsMethod.py:53-17:48:S.686 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:48:S.688 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:48:S.691 >> Method Name: testCase02_must_input_1 
+[INFO]caseLogsMethod.py:59-17:48:S.693 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'title', 'code': 200}] 
+[INFO]test_level1.py:57-17:48:S.696 >> STEP:获取便签主体版本 
+[INFO]caseLogsMethod.py:53-17:48:S.702 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:48:S.705 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:48:S.709 >> Method Name: testCase02_must_input_2 
+[INFO]caseLogsMethod.py:59-17:48:S.712 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'summary', 'code': 200}] 
+[INFO]test_level1.py:57-17:48:S.714 >> STEP:获取便签主体版本 
+[INFO]caseLogsMethod.py:53-17:48:S.718 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:48:S.721 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:48:S.724 >> Method Name: testCase02_must_input_3 
+[INFO]caseLogsMethod.py:59-17:48:S.728 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'body', 'code': 412}] 
+[INFO]test_level1.py:57-17:48:S.730 >> STEP:获取便签主体版本 
+[INFO]caseLogsMethod.py:53-17:48:S.735 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:48:S.738 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:48:S.740 >> Method Name: testCase02_must_input_4 
+[INFO]caseLogsMethod.py:59-17:48:S.743 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'localContentVersion', 'code': 200}] 
+[INFO]test_level1.py:57-17:48:S.745 >> STEP:获取便签主体版本 
+[INFO]caseLogsMethod.py:53-17:48:S.749 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:48:S.752 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:48:S.754 >> Method Name: testCase02_must_input_5 
+[INFO]caseLogsMethod.py:59-17:48:S.757 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'BodyType', 'code': 200}] 
+[INFO]test_level1.py:57-17:48:S.759 >> STEP:获取便签主体版本 
+[INFO]caseLogsMethod.py:53-17:49:S.198 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:49:S.269 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:49:S.271 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:49:S.274 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:29-17:49:S.276 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:49:S.279 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:49:S.282 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.285 >> body:{"noteId": "1695894564279_test_noteId"} 
+[INFO]apiRe.py:22-17:49:S.433 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.442 >> res body:{'responseTime': 25, 'infoVersion': 1, 'infoUpdateTime': 1695894564143} 
+[INFO]test_level1.py:37-17:49:S.452 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:47-17:49:S.459 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:49:S.464 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:49:S.468 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.473 >> body:{"noteId": "1695894564279_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:49:S.621 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.631 >> res body:{'responseTime': 26, 'contentVersion': 1, 'contentUpdateTime': 1695894564356} 
+[INFO]caseLogsMethod.py:53-17:49:S.642 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:49:S.650 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:49:S.659 >> Method Name: testCase02_must_input_0 
+[INFO]caseLogsMethod.py:59-17:49:S.667 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'noteId', 'code': 500}] 
+[INFO]test_level1.py:57-17:49:S.673 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:49:S.679 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:49:S.686 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.692 >> body:{"noteId": "1695894564679_test_noteId"} 
+[INFO]apiRe.py:22-17:49:S.834 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.841 >> res body:{'responseTime': 23, 'infoVersion': 1, 'infoUpdateTime': 1695894564570} 
+[INFO]test_level1.py:66-17:49:S.847 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:77-17:49:S.850 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:49:S.854 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:49:S.857 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.860 >> body:{"title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:49:S.971 >> res code:500 
+[INFO]apiRe.py:23-17:49:S.974 >> res body:{'errorCode': -7, 'errorMsg': '参数不合法！'} 
+[INFO]caseLogsMethod.py:53-17:49:S.978 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:49:S.981 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:49:S.984 >> Method Name: testCase02_must_input_1 
+[INFO]caseLogsMethod.py:59-17:49:S.990 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'title', 'code': 200}] 
+[INFO]test_level1.py:57-17:49:S.992 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:49:S.995 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:49:S.998 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.002 >> body:{"noteId": "1695894564995_test_noteId"} 
+[INFO]apiRe.py:22-17:49:S.144 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.147 >> res body:{'responseTime': 30, 'infoVersion': 1, 'infoUpdateTime': 1695894564882} 
+[INFO]test_level1.py:66-17:49:S.150 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:77-17:49:S.154 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:49:S.158 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:49:S.161 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.165 >> body:{"noteId": "1695894564995_test_noteId", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:49:S.323 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.326 >> res body:{'responseTime': 41, 'contentVersion': 1, 'contentUpdateTime': 1695894565024} 
+[INFO]caseLogsMethod.py:53-17:49:S.330 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:49:S.333 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:49:S.335 >> Method Name: testCase02_must_input_2 
+[INFO]caseLogsMethod.py:59-17:49:S.339 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'summary', 'code': 200}] 
+[INFO]test_level1.py:57-17:49:S.342 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:49:S.345 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:49:S.349 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.353 >> body:{"noteId": "1695894565345_test_noteId"} 
+[INFO]apiRe.py:22-17:49:S.496 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.506 >> res body:{'responseTime': 25, 'infoVersion': 1, 'infoUpdateTime': 1695894565232} 
+[INFO]test_level1.py:66-17:49:S.514 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:77-17:49:S.525 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:49:S.534 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:49:S.539 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.543 >> body:{"noteId": "1695894565345_test_noteId", "title": "test_title", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:49:S.687 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.690 >> res body:{'responseTime': 22, 'contentVersion': 1, 'contentUpdateTime': 1695894565397} 
+[INFO]caseLogsMethod.py:53-17:49:S.694 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:49:S.696 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:49:S.699 >> Method Name: testCase02_must_input_3 
+[INFO]caseLogsMethod.py:59-17:49:S.701 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'body', 'code': 412}] 
+[INFO]test_level1.py:57-17:49:S.704 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:49:S.706 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:49:S.709 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.712 >> body:{"noteId": "1695894565706_test_noteId"} 
+[INFO]apiRe.py:22-17:49:S.843 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.850 >> res body:{'responseTime': 24, 'infoVersion': 1, 'infoUpdateTime': 1695894565554} 
+[INFO]test_level1.py:66-17:49:S.860 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:77-17:49:S.869 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:49:S.876 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:49:S.883 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.891 >> body:{"noteId": "1695894565706_test_noteId", "title": "test_title", "summary": "test_summary", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:49:S.005 >> res code:412 
+[INFO]apiRe.py:23-17:49:S.016 >> res body:{'errorCode': -1012, 'errorMsg': 'Note body Requested!'} 
+[INFO]caseLogsMethod.py:53-17:49:S.023 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:49:S.030 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:49:S.036 >> Method Name: testCase02_must_input_4 
+[INFO]caseLogsMethod.py:59-17:49:S.043 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'localContentVersion', 'code': 200}] 
+[INFO]test_level1.py:57-17:49:S.047 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:49:S.050 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:49:S.054 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.057 >> body:{"noteId": "1695894566049_test_noteId"} 
+[INFO]apiRe.py:22-17:49:S.185 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.193 >> res body:{'responseTime': 24, 'infoVersion': 1, 'infoUpdateTime': 1695894565899} 
+[INFO]test_level1.py:66-17:49:S.202 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:77-17:49:S.208 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:49:S.215 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:49:S.223 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.228 >> body:{"noteId": "1695894566049_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "BodyType": 0} 
+[INFO]apiRe.py:22-17:49:S.379 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.383 >> res body:{'responseTime': 27, 'contentVersion': 1, 'contentUpdateTime': 1695894566088} 
+[INFO]caseLogsMethod.py:53-17:49:S.390 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:49:S.394 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:49:S.398 >> Method Name: testCase02_must_input_5 
+[INFO]caseLogsMethod.py:59-17:49:S.403 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'BodyType', 'code': 200}] 
+[INFO]test_level1.py:57-17:49:S.407 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:49:S.410 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:49:S.413 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.416 >> body:{"noteId": "1695894566410_test_noteId"} 
+[INFO]apiRe.py:22-17:49:S.561 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.565 >> res body:{'responseTime': 27, 'infoVersion': 1, 'infoUpdateTime': 1695894566299} 
+[INFO]test_level1.py:66-17:49:S.568 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:77-17:49:S.571 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:49:S.573 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:49:S.576 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:S.579 >> body:{"noteId": "1695894566410_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1} 
+[INFO]apiRe.py:22-17:49:S.724 >> res code:200 
+[INFO]apiRe.py:23-17:49:S.732 >> res body:{'responseTime': 28, 'contentVersion': 1, 'contentUpdateTime': 1695894566433} 
+[INFO]caseLogsMethod.py:53-17:54:S.034 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:54:S.415 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:54:S.420 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:54:S.425 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:29-17:54:S.430 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:54:S.436 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:54:S.442 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:54:S.446 >> body:{"noteId": "1695894898436_test_noteId"} 
+[INFO]apiRe.py:22-17:54:S.628 >> res code:200 
+[INFO]apiRe.py:23-17:54:S.633 >> res body:{'responseTime': 68, 'infoVersion': 1, 'infoUpdateTime': 1695894898336} 
+[INFO]test_level1.py:37-17:54:S.637 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:47-17:54:S.641 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:54:S.645 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:54:S.649 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:54:S.653 >> body:{"noteId": "1695894898436_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:54:S.859 >> res code:200 
+[INFO]apiRe.py:23-17:54:S.868 >> res body:{'responseTime': 85, 'contentVersion': 1, 'contentUpdateTime': 1695894898585} 
+[INFO]test_level1.py:51-17:54:S.876 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-17:54:S.884 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:54:S.891 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:54:S.897 >> Method Name: testCase02_must_input_0 
+[INFO]caseLogsMethod.py:59-17:54:S.900 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'noteId', 'code': 500}] 
+[INFO]test_level1.py:58-17:54:S.903 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:54:S.907 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:54:S.910 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:54:S.915 >> body:{"noteId": "1695894898907_test_noteId"} 
+[INFO]apiRe.py:22-17:54:S.060 >> res code:200 
+[INFO]apiRe.py:23-17:54:S.069 >> res body:{'responseTime': 35, 'infoVersion': 1, 'infoUpdateTime': 1695894898798} 
+[INFO]test_level1.py:67-17:54:S.078 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:78-17:54:S.086 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:54:S.094 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:54:S.103 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:54:S.109 >> body:{"title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:54:S.217 >> res code:500 
+[INFO]apiRe.py:23-17:54:S.223 >> res body:{'errorCode': -7, 'errorMsg': '参数不合法！'} 
+[INFO]test_level1.py:88-17:54:S.229 >> expect body:{'errorCode': <class 'int'>, 'errorMsg': <class 'str'>} 
+[INFO]caseLogsMethod.py:53-17:54:S.237 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:54:S.244 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:54:S.252 >> Method Name: testCase02_must_input_1 
+[INFO]caseLogsMethod.py:59-17:54:S.257 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'title', 'code': 200}] 
+[INFO]test_level1.py:58-17:54:S.259 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:54:S.262 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:54:S.265 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:54:S.268 >> body:{"noteId": "1695894899262_test_noteId"} 
+[INFO]apiRe.py:22-17:54:S.423 >> res code:200 
+[INFO]apiRe.py:23-17:54:S.426 >> res body:{'responseTime': 32, 'infoVersion': 1, 'infoUpdateTime': 1695894899159} 
+[INFO]test_level1.py:67-17:54:S.430 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:78-17:54:S.433 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:54:S.435 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:54:S.440 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:54:S.445 >> body:{"noteId": "1695894899262_test_noteId", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:54:S.592 >> res code:200 
+[INFO]apiRe.py:23-17:54:S.595 >> res body:{'responseTime': 28, 'contentVersion': 1, 'contentUpdateTime': 1695894899335} 
+[INFO]test_level1.py:83-17:54:S.599 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-17:54:S.603 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:54:S.608 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:54:S.611 >> Method Name: testCase02_must_input_2 
+[INFO]caseLogsMethod.py:59-17:54:S.615 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'summary', 'code': 200}] 
+[INFO]test_level1.py:58-17:54:S.618 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:54:S.623 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:54:S.626 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:54:S.630 >> body:{"noteId": "1695894899623_test_noteId"} 
+[INFO]apiRe.py:22-17:54:S.844 >> res code:200 
+[INFO]apiRe.py:23-17:54:S.846 >> res body:{'responseTime': 27, 'infoVersion': 1, 'infoUpdateTime': 1695894899551} 
+[INFO]test_level1.py:67-17:54:S.849 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:78-17:54:S.851 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:54:S.856 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:54:S.859 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:54:S.862 >> body:{"noteId": "1695894899623_test_noteId", "title": "test_title", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:55:S.021 >> res code:200 
+[INFO]apiRe.py:23-17:55:S.025 >> res body:{'responseTime': 41, 'contentVersion': 1, 'contentUpdateTime': 1695894899752} 
+[INFO]test_level1.py:83-17:55:S.028 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-17:55:S.031 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:55:S.033 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:55:S.035 >> Method Name: testCase02_must_input_3 
+[INFO]caseLogsMethod.py:59-17:55:S.038 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'body', 'code': 412}] 
+[INFO]test_level1.py:58-17:55:S.041 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:55:S.044 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:55:S.048 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:55:S.052 >> body:{"noteId": "1695894900044_test_noteId"} 
+[INFO]apiRe.py:22-17:55:S.221 >> res code:200 
+[INFO]apiRe.py:23-17:55:S.225 >> res body:{'responseTime': 56, 'infoVersion': 1, 'infoUpdateTime': 1695894899903} 
+[INFO]test_level1.py:67-17:55:S.228 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:78-17:55:S.231 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:55:S.233 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:55:S.236 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:55:S.241 >> body:{"noteId": "1695894900044_test_noteId", "title": "test_title", "summary": "test_summary", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:55:S.353 >> res code:412 
+[INFO]apiRe.py:23-17:55:S.358 >> res body:{'errorCode': -1012, 'errorMsg': 'Note body Requested!'} 
+[INFO]test_level1.py:88-17:55:S.361 >> expect body:{'errorCode': <class 'int'>, 'errorMsg': <class 'str'>} 
+[INFO]caseLogsMethod.py:53-17:55:S.364 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:55:S.369 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:55:S.372 >> Method Name: testCase02_must_input_4 
+[INFO]caseLogsMethod.py:59-17:55:S.375 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'localContentVersion', 'code': 200}] 
+[INFO]test_level1.py:58-17:55:S.377 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:55:S.380 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:55:S.382 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:55:S.384 >> body:{"noteId": "1695894900380_test_noteId"} 
+[INFO]apiRe.py:22-17:55:S.538 >> res code:200 
+[INFO]apiRe.py:23-17:55:S.541 >> res body:{'responseTime': 35, 'infoVersion': 1, 'infoUpdateTime': 1695894900276} 
+[INFO]test_level1.py:67-17:55:S.543 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:78-17:55:S.546 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:55:S.581 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:55:S.585 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:55:S.590 >> body:{"noteId": "1695894900380_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "BodyType": 0} 
+[INFO]apiRe.py:22-17:55:S.756 >> res code:200 
+[INFO]apiRe.py:23-17:55:S.759 >> res body:{'responseTime': 41, 'contentVersion': 1, 'contentUpdateTime': 1695894900498} 
+[INFO]test_level1.py:83-17:55:S.762 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-17:55:S.765 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:55:S.767 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:55:S.769 >> Method Name: testCase02_must_input_5 
+[INFO]caseLogsMethod.py:59-17:55:S.772 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'BodyType', 'code': 200}] 
+[INFO]test_level1.py:58-17:55:S.774 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:55:S.776 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:55:S.779 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:55:S.781 >> body:{"noteId": "1695894900776_test_noteId"} 
+[INFO]apiRe.py:22-17:55:S.924 >> res code:200 
+[INFO]apiRe.py:23-17:55:S.926 >> res body:{'responseTime': 33, 'infoVersion': 1, 'infoUpdateTime': 1695894900663} 
+[INFO]test_level1.py:67-17:55:S.929 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:78-17:55:S.931 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:55:S.933 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:55:S.936 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:55:S.944 >> body:{"noteId": "1695894900776_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1} 
+[INFO]apiRe.py:22-17:55:S.130 >> res code:200 
+[INFO]apiRe.py:23-17:55:S.132 >> res body:{'responseTime': 62, 'contentVersion': 1, 'contentUpdateTime': 1695894900838} 
+[INFO]test_level1.py:83-17:55:S.135 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-17:59:S.297 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:59:S.381 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:59:S.384 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-17:59:S.386 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:30-17:59:S.388 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:59:S.390 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:59:S.392 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.394 >> body:{"noteId": "1695895192390_test_noteId"} 
+[INFO]apiRe.py:22-17:59:S.551 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.556 >> res body:{'responseTime': 32, 'infoVersion': 1, 'infoUpdateTime': 1695895192260} 
+[INFO]test_level1.py:38-17:59:S.561 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:48-17:59:S.566 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:59:S.571 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:59:S.576 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.580 >> body:{"noteId": "1695895192390_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:59:S.728 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.736 >> res body:{'responseTime': 30, 'contentVersion': 1, 'contentUpdateTime': 1695895192439} 
+[INFO]caseLogsMethod.py:53-17:59:S.957 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:59:S.960 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:59:S.962 >> Method Name: testCase02_must_input_0 
+[INFO]caseLogsMethod.py:59-17:59:S.967 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'noteId', 'code': 500}] 
+[INFO]test_level1.py:59-17:59:S.969 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:59:S.973 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:59:S.977 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.981 >> body:{"noteId": "1695895192973_test_noteId"} 
+[INFO]apiRe.py:22-17:59:S.121 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.130 >> res body:{'responseTime': 29, 'infoVersion': 1, 'infoUpdateTime': 1695895192868} 
+[INFO]test_level1.py:68-17:59:S.140 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-17:59:S.147 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:59:S.155 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:59:S.163 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.168 >> body:{"title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:59:S.276 >> res code:500 
+[INFO]apiRe.py:23-17:59:S.286 >> res body:{'errorCode': -7, 'errorMsg': '参数不合法！'} 
+[INFO]caseLogsMethod.py:53-17:59:S.301 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:59:S.307 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:59:S.314 >> Method Name: testCase02_must_input_1 
+[INFO]caseLogsMethod.py:59-17:59:S.320 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'title', 'code': 200}] 
+[INFO]test_level1.py:59-17:59:S.323 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:59:S.328 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:59:S.332 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.336 >> body:{"noteId": "1695895193328_test_noteId"} 
+[INFO]apiRe.py:22-17:59:S.485 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.488 >> res body:{'responseTime': 31, 'infoVersion': 1, 'infoUpdateTime': 1695895193227} 
+[INFO]test_level1.py:68-17:59:S.491 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-17:59:S.493 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:59:S.496 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:59:S.499 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.502 >> body:{"noteId": "1695895193328_test_noteId", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:59:S.654 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.663 >> res body:{'responseTime': 42, 'contentVersion': 1, 'contentUpdateTime': 1695895193370} 
+[INFO]test_level1.py:84-17:59:S.672 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-17:59:S.678 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:59:S.681 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:59:S.685 >> Method Name: testCase02_must_input_2 
+[INFO]caseLogsMethod.py:59-17:59:S.689 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'summary', 'code': 200}] 
+[INFO]test_level1.py:59-17:59:S.692 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:59:S.696 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:59:S.701 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.706 >> body:{"noteId": "1695895193696_test_noteId"} 
+[INFO]apiRe.py:22-17:59:S.841 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.843 >> res body:{'responseTime': 25, 'infoVersion': 1, 'infoUpdateTime': 1695895193593} 
+[INFO]test_level1.py:68-17:59:S.846 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-17:59:S.849 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:59:S.851 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:59:S.854 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.856 >> body:{"noteId": "1695895193696_test_noteId", "title": "test_title", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:59:S.986 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.989 >> res body:{'responseTime': 27, 'contentVersion': 1, 'contentUpdateTime': 1695895193702} 
+[INFO]test_level1.py:84-17:59:S.992 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-17:59:S.995 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:59:S.998 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:59:S.000 >> Method Name: testCase02_must_input_3 
+[INFO]caseLogsMethod.py:59-17:59:S.002 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'body', 'code': 412}] 
+[INFO]test_level1.py:59-17:59:S.003 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:59:S.006 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:59:S.008 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.010 >> body:{"noteId": "1695895194006_test_noteId"} 
+[INFO]apiRe.py:22-17:59:S.160 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.168 >> res body:{'responseTime': 34, 'infoVersion': 1, 'infoUpdateTime': 1695895193866} 
+[INFO]test_level1.py:68-17:59:S.175 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-17:59:S.182 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:59:S.187 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:59:S.191 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.194 >> body:{"noteId": "1695895194006_test_noteId", "title": "test_title", "summary": "test_summary", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:59:S.309 >> res code:412 
+[INFO]apiRe.py:23-17:59:S.318 >> res body:{'errorCode': -1012, 'errorMsg': 'Note body Requested!'} 
+[INFO]caseLogsMethod.py:53-17:59:S.330 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:59:S.336 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:59:S.341 >> Method Name: testCase02_must_input_4 
+[INFO]caseLogsMethod.py:59-17:59:S.344 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'localContentVersion', 'code': 200}] 
+[INFO]test_level1.py:59-17:59:S.347 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:59:S.350 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:59:S.353 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.356 >> body:{"noteId": "1695895194350_test_noteId"} 
+[INFO]apiRe.py:22-17:59:S.510 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.518 >> res body:{'responseTime': 37, 'infoVersion': 1, 'infoUpdateTime': 1695895194211} 
+[INFO]test_level1.py:68-17:59:S.526 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-17:59:S.533 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:59:S.540 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:59:S.559 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.562 >> body:{"noteId": "1695895194350_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "BodyType": 0} 
+[INFO]apiRe.py:22-17:59:S.698 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.705 >> res body:{'responseTime': 24, 'contentVersion': 1, 'contentUpdateTime': 1695895194449} 
+[INFO]test_level1.py:84-17:59:S.712 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-17:59:S.720 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-17:59:S.726 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-17:59:S.729 >> Method Name: testCase02_must_input_5 
+[INFO]caseLogsMethod.py:59-17:59:S.731 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'BodyType', 'code': 200}] 
+[INFO]test_level1.py:59-17:59:S.734 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-17:59:S.736 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:59:S.739 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.742 >> body:{"noteId": "1695895194736_test_noteId"} 
+[INFO]apiRe.py:22-17:59:S.889 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.897 >> res body:{'responseTime': 33, 'infoVersion': 1, 'infoUpdateTime': 1695895194629} 
+[INFO]test_level1.py:68-17:59:S.905 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-17:59:S.909 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-17:59:S.913 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:59:S.917 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:59:S.921 >> body:{"noteId": "1695895194736_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1} 
+[INFO]apiRe.py:22-17:59:S.067 >> res code:200 
+[INFO]apiRe.py:23-17:59:S.076 >> res body:{'responseTime': 31, 'contentVersion': 1, 'contentUpdateTime': 1695895194814} 
+[INFO]test_level1.py:84-17:59:S.085 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-18:01:S.456 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-18:01:S.551 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-18:01:S.553 >> Method Name: testCase01_major 
+[INFO]caseLogsMethod.py:59-18:01:S.556 >> Test Description: 上传/更新便签内容 主流程 
+[INFO]test_level1.py:30-18:01:S.558 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-18:01:S.560 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:01:S.562 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.565 >> body:{"noteId": "1695895317560_test_noteId"} 
+[INFO]apiRe.py:22-18:01:S.704 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.709 >> res body:{'responseTime': 26, 'infoVersion': 1, 'infoUpdateTime': 1695895317400} 
+[INFO]test_level1.py:38-18:01:S.713 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:48-18:01:S.717 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-18:01:S.722 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:01:S.726 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.730 >> body:{"noteId": "1695895317560_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-18:01:S.869 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.872 >> res body:{'responseTime': 25, 'contentVersion': 1, 'contentUpdateTime': 1695895317563} 
+[INFO]test_level1.py:52-18:01:S.875 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-18:01:S.877 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-18:01:S.880 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-18:01:S.882 >> Method Name: testCase02_must_input_0 
+[INFO]caseLogsMethod.py:59-18:01:S.884 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'noteId', 'code': 500}] 
+[INFO]test_level1.py:59-18:01:S.886 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-18:01:S.888 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:01:S.891 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.893 >> body:{"noteId": "1695895317888_test_noteId"} 
+[INFO]apiRe.py:22-18:01:S.039 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.043 >> res body:{'responseTime': 31, 'infoVersion': 1, 'infoUpdateTime': 1695895317766} 
+[INFO]test_level1.py:68-18:01:S.047 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-18:01:S.050 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-18:01:S.054 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:01:S.060 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.066 >> body:{"title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-18:01:S.193 >> res code:500 
+[INFO]apiRe.py:23-18:01:S.196 >> res body:{'errorCode': -7, 'errorMsg': '参数不合法！'} 
+[INFO]test_level1.py:89-18:01:S.199 >> expect body:{'errorCode': <class 'int'>, 'errorMsg': <class 'str'>} 
+[INFO]caseLogsMethod.py:53-18:01:S.202 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-18:01:S.205 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-18:01:S.208 >> Method Name: testCase02_must_input_1 
+[INFO]caseLogsMethod.py:59-18:01:S.210 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'title', 'code': 200}] 
+[INFO]test_level1.py:59-18:01:S.214 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-18:01:S.217 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:01:S.219 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.223 >> body:{"noteId": "1695895318216_test_noteId"} 
+[INFO]apiRe.py:22-18:01:S.357 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.359 >> res body:{'responseTime': 26, 'infoVersion': 1, 'infoUpdateTime': 1695895318050} 
+[INFO]test_level1.py:68-18:01:S.362 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-18:01:S.364 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-18:01:S.366 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:01:S.369 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.371 >> body:{"noteId": "1695895318216_test_noteId", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-18:01:S.503 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.512 >> res body:{'responseTime': 25, 'contentVersion': 1, 'contentUpdateTime': 1695895318200} 
+[INFO]test_level1.py:84-18:01:S.520 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-18:01:S.530 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-18:01:S.536 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-18:01:S.539 >> Method Name: testCase02_must_input_2 
+[INFO]caseLogsMethod.py:59-18:01:S.541 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'summary', 'code': 200}] 
+[INFO]test_level1.py:59-18:01:S.544 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-18:01:S.547 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:01:S.550 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.553 >> body:{"noteId": "1695895318547_test_noteId"} 
+[INFO]apiRe.py:22-18:01:S.696 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.705 >> res body:{'responseTime': 30, 'infoVersion': 1, 'infoUpdateTime': 1695895318421} 
+[INFO]test_level1.py:68-18:01:S.714 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-18:01:S.720 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-18:01:S.725 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:01:S.730 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.735 >> body:{"noteId": "1695895318547_test_noteId", "title": "test_title", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-18:01:S.897 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.904 >> res body:{'responseTime': 44, 'contentVersion': 1, 'contentUpdateTime': 1695895318607} 
+[INFO]test_level1.py:84-18:01:S.910 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-18:01:S.916 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-18:01:S.922 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-18:01:S.926 >> Method Name: testCase02_must_input_3 
+[INFO]caseLogsMethod.py:59-18:01:S.929 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'body', 'code': 412}] 
+[INFO]test_level1.py:59-18:01:S.930 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-18:01:S.933 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:01:S.936 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.939 >> body:{"noteId": "1695895318933_test_noteId"} 
+[INFO]apiRe.py:22-18:01:S.098 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.108 >> res body:{'responseTime': 48, 'infoVersion': 1, 'infoUpdateTime': 1695895318803} 
+[INFO]test_level1.py:68-18:01:S.117 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-18:01:S.126 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-18:01:S.133 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:01:S.141 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.146 >> body:{"noteId": "1695895318933_test_noteId", "title": "test_title", "summary": "test_summary", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-18:01:S.264 >> res code:412 
+[INFO]apiRe.py:23-18:01:S.267 >> res body:{'errorCode': -1012, 'errorMsg': 'Note body Requested!'} 
+[INFO]test_level1.py:89-18:01:S.270 >> expect body:{'errorCode': <class 'int'>, 'errorMsg': <class 'str'>} 
+[INFO]caseLogsMethod.py:53-18:01:S.274 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-18:01:S.279 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-18:01:S.281 >> Method Name: testCase02_must_input_4 
+[INFO]caseLogsMethod.py:59-18:01:S.283 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'localContentVersion', 'code': 200}] 
+[INFO]test_level1.py:59-18:01:S.286 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-18:01:S.289 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:01:S.293 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.296 >> body:{"noteId": "1695895319288_test_noteId"} 
+[INFO]apiRe.py:22-18:01:S.433 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.437 >> res body:{'responseTime': 27, 'infoVersion': 1, 'infoUpdateTime': 1695895319120} 
+[INFO]test_level1.py:68-18:01:S.441 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-18:01:S.443 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-18:01:S.461 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:01:S.463 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.465 >> body:{"noteId": "1695895319288_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "BodyType": 0} 
+[INFO]apiRe.py:22-18:01:S.610 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.613 >> res body:{'responseTime': 32, 'contentVersion': 1, 'contentUpdateTime': 1695895319336} 
+[INFO]test_level1.py:84-18:01:S.615 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
+[INFO]caseLogsMethod.py:53-18:01:S.618 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogsMethod.py:57-18:01:S.620 >> Class Name: SetNoteContentLevel1 
+[INFO]caseLogsMethod.py:58-18:01:S.622 >> Method Name: testCase02_must_input_5 
+[INFO]caseLogsMethod.py:59-18:01:S.624 >> Test Description: 上传/更新便签内容 必填项校验 [with dic={'key': 'BodyType', 'code': 200}] 
+[INFO]test_level1.py:59-18:01:S.626 >> STEP:获取便签主体版本 
+[INFO]apiRe.py:18-18:01:S.630 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:01:S.632 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.634 >> body:{"noteId": "1695895319630_test_noteId"} 
+[INFO]apiRe.py:22-18:01:S.799 >> res code:200 
+[INFO]apiRe.py:23-18:01:S.802 >> res body:{'responseTime': 49, 'infoVersion': 1, 'infoUpdateTime': 1695895319466} 
+[INFO]test_level1.py:68-18:01:S.805 >> 接口关联参数info_version:1 
+[INFO]test_level1.py:79-18:01:S.808 >> STEP:新增便签内容 
+[INFO]apiRe.py:18-18:01:S.810 >> url:http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:01:S.813 >> headers:{"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:01:S.816 >> body:{"noteId": "1695895319630_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1} 
+[INFO]apiRe.py:22-18:01:S.997 >> res code:200 
+[INFO]apiRe.py:23-18:02:S.000 >> res body:{'responseTime': 69, 'contentVersion': 1, 'contentUpdateTime': 1695895319686} 
+[INFO]test_level1.py:84-18:02:S.003 >> expect body:{'responseTime': <class 'int'>, 'contentVersion': <class 'int'>, 'contentUpdateTime': <class 'int'>} 
