@@ -6,57 +6,51 @@ from common.yamlOperation import ReadYaml
 from common.caseLogsMethod import info, step, class_case_log, func_case_log
 from businessCommon.apiRe import ApiRe
 from businessCommon.businessNote import BusinessNote
+from copy import deepcopy
 
 
 @class_case_log
-class GetPageNoteInput(unittest.TestCase):
+class SetNoteInfoInput(unittest.TestCase):
     envConfig = ReadYaml().env_yaml()
     apiConfig = ReadYaml().api_yaml('api.yml')
     host = envConfig['host']
-    path = apiConfig['getPageNote']['path']
+    path = apiConfig['setNoteInfo']['path']
     url = host + path
     sid = envConfig['sid']
     user_id = envConfig['user_id']
     apiRe = ApiRe()
     input = ReadYaml().api_yaml('checkInput.yml')
-    userIdTestCase = input['checkInputString']
-    userIdTestCase[3][0]["value"] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    strTestCase = input['checkInputString']
+    strTestCase[3][0]["value"] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     # print(userIdTestCase[3][0]["value"])
 
-    startIndexTestCase = input['checkInputInter']
+    intTestCase = input['checkInputInter']
+
+    base_body = {
+        'noteId': 'note_id',
+        'star': 0,
+        'remindTime': 0,
+        'remindType': 0
+    }  # 缺少groupId
 
     # startIndexTestCase.pop(0)
     # print(startIndexTestCase.pop(0))
 
-    def setUp(self) -> None:
-        BusinessNote.clear_note(self.user_id, self.sid)
+    @parameterized.expand(strTestCase)
+    def testCase01_noteId(self, dic):
+        """上传/更新便签主体   userid验证"""
 
-    @parameterized.expand(userIdTestCase)
-    def testCase01_user_id(self, dic):
-        """获取首页便签列表   userid验证"""
-        note_ids = BusinessNote.multi_set_note(1, self.sid, self.user_id)
-        start_index = 0
-        rows = 0
-        user_id = dic['value']
-        print(user_id)
-        url = self.url.format(userid=user_id, startindex=start_index, rows=rows)
-        # print(url)
+        note_id = dic['value']
+        print(note_id)
+        body = deepcopy(self.base_body)
+        body['noteId'] = note_id
+
         step("STEP:获取首页便签列表")
-        res = self.apiRe.note_get(url, self.sid)
-        if dic['code'] == 404:
-            self.assertEqual(dic['code'], res.status_code, msg='状态码错误')
-            expect = {
-                'timestamp': str,
-                'status': 404,
-                'error': 'Not Found',
-                'message': 'No message available',
-                'path': '/v3/notesvr/user//home/startindex/0/rows/0/notes'
-            }
+        res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
+        self.assertEqual(500, res.status_code, msg='状态码错误')
+        expect = {'errorCode': int, 'errorMsg':str}
+        info(f'expect body:{expect}')
+        CheckTools().check_output(expect, res.json())
 
-            info(f'expect body:{expect}')
-            CheckTools().check_output(expect, res.json())
-        else:
-            self.assertEqual(dic['code'], res.status_code, msg='状态码错误')
-            expect = {'errorCode': -7, 'errorMsg': str}
-            info(f'expect body:{expect}')
-            CheckTools().check_output(expect, res.json())
+if __name__ == '__main__':
+    unittest.main()

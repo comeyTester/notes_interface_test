@@ -5,9 +5,10 @@ import time
 from common.checkCommon import CheckTools
 from parameterized import parameterized
 from common.yamlOperation import ReadYaml
-from common.caseLogsMethod import info, class_case_log, func_case_log
+from common.caseLogsMethod import info, step, class_case_log, func_case_log
 from businessCommon.apiRe import ApiRe
 from businessCommon.businessNote import BusinessNote
+from copy import deepcopy
 
 
 @class_case_log
@@ -15,80 +16,77 @@ class SetNoteInfoSmoking(unittest.TestCase):
     envConfig = ReadYaml().env_yaml()
     apiConfig = ReadYaml().api_yaml('api.yml')
     host = envConfig['host']
-    path = apiConfig['setNoteContent']['path']
+    path = apiConfig['setNoteInfo']['path']
     url = host + path
     sid = envConfig['sid']
     user_id = envConfig['user_id']
-    note_info_path = apiConfig['setNoteInfo']['path']
-    note_info_url = host + note_info_path
-    must_key = apiConfig['setNoteContent']['must_key']
     apiRe = ApiRe()
+    base_body = {
+        'noteId': 'note_id',
+        'star': 0,
+        'remindTime': 0,
+        'remindType': 0
+    }
 
     # @func_case_log
     def testCase01_major(self):
-        """上传/更新便签内容 主流程"""
+        """上传/更新便签主体 主流程"""
 
-        info('STEP:获取便签主体版本')
         note_id = str(int(time.time() * 1000)) + '_test_noteId'
-        note_info_body = {
-            'noteId': note_id
-        }
-        res = self.apiRe.note_post(self.note_info_url, self.user_id, self.sid, note_info_body)
+        # note_info_body = {
+        #     'noteId': note_id,
+        #     'star': 0,
+        #     'remindTime': 0,
+        #     'remindType': 0,
+        #     'groupId':  #组ID
+        # }
+        body = deepcopy(self.base_body)
+        body['noteId'] = note_id
+        step("请求新增便签主体接口")
+        res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
         self.assertEqual(200, res.status_code, msg='状态码错误')
-        info_version = res.json()['infoVersion']
-        info(f'接口关联参数info_version:{info_version}')
-
-        set_note_content_body = {
-            'noteId': note_id,
-            'title': 'test_title',
-            'summary': 'test_summary',
-            'body': 'test_body',
-            'localContentVersion': info_version,
-            'BodyType': 0
-        }
-        info('STEP:新增便签内容')
-        set_note_content_res = self.apiRe.note_post(self.url, self.user_id, self.sid, set_note_content_body)
-        self.assertEqual(200, set_note_content_res.status_code, msg='状态码错误')
-        expect = {'responseTime': int, 'contentVersion': int, 'contentUpdateTime': int}
+        expect = {'responseTime': int, 'infoVersion': int, 'infoUpdateTime': int}
         info(f'expect body:{expect}')
-        CheckTools().check_output(expect, set_note_content_res.json())
+        CheckTools().check_output(expect, res.json())
+        step("验证新增一条普通便签主体（无法检查数据源）？？？")
 
-    @parameterized.expand(must_key)
-    def testCase02_must_input(self, dic):
-        """上传/更新便签内容 必填项校验"""
-        # info(f'必填项校验的字段{dic}')
-        info('STEP:获取便签主体版本')
+    def testCase02_must_input(self):
+        """上传/更新便签主体 必填项校验noteId"""
 
-        note_id = str(int(time.time() * 1000)) + '_test_noteId'
-        body = {
-            'noteId': note_id
-        }
-        res = self.apiRe.note_post(self.note_info_url, self.user_id, self.sid, body)
-        self.assertEqual(200, res.status_code, msg='状态码错误')
-        info_version = res.json()['infoVersion']
-        info(f'接口关联参数info_version:{info_version}')
+        body = deepcopy(self.base_body)
+        body.pop('noteId')
+        step("请求新增便签主体接口")
+        res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
+        self.assertEqual(500, res.status_code, msg='状态码错误')
+        expect = {'errorCode': int, 'errorMsg': str}
+        info(f'expect body:{expect}')
+        CheckTools().check_output(expect, res.json())
 
-        set_note_content_body = {
-            'noteId': note_id,
-            'title': 'test_title',
-            'summary': 'test_summary',
-            'body': 'test_body',
-            'localContentVersion': info_version,
-            'BodyType': 0
-        }
-        set_note_content_body.pop(dic['key'])
-        info('STEP:新增便签内容')
-        set_note_content_res = self.apiRe.note_post(self.url, self.user_id, self.sid, set_note_content_body)
-        if dic['code'] == 200:
-            self.assertEqual(dic['code'], set_note_content_res.status_code, msg='状态码错误')
-            expect = {'responseTime': int, 'contentVersion': int, 'contentUpdateTime': int}
-            info(f'expect body:{expect}')
-            CheckTools().check_output(expect, set_note_content_res.json())
-        else:
-            self.assertEqual(dic['code'], set_note_content_res.status_code, msg='状态码错误')
-            expect = {'errorCode': int, 'errorMsg': str}
-            info(f'expect body:{expect}')
-            CheckTools().check_output(expect, set_note_content_res.json())
+    def testCase03_sid(self):
+        """上传/更新便签主体 wps_sid不正确"""
+
+        body = deepcopy(self.base_body)
+        body.pop('noteId')
+        step("请求新增便签主体接口")
+        sid = "abcd"
+        res = self.apiRe.note_post(self.url, self.user_id, sid, body)
+        self.assertEqual(500, res.status_code, msg='状态码错误')
+        expect = {'errorCode': int, 'errorMsg': str}
+        info(f'expect body:{expect}')
+        CheckTools().check_output(expect, res.json())
+
+    def testCase04_user_id(self):
+        """上传/更新便签主体 user_id不正确"""
+
+        body = deepcopy(self.base_body)
+        body.pop('noteId')
+        step("请求新增便签主体接口")
+        user_id = "123"
+        res = self.apiRe.note_post(self.url, user_id, self.sid, body)
+        self.assertEqual(500, res.status_code, msg='状态码错误')
+        expect = {'errorCode': int, 'errorMsg': str}
+        info(f'expect body:{expect}')
+        CheckTools().check_output(expect, res.json())
 
 
 if __name__ == '__main__':

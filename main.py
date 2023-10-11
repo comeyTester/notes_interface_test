@@ -15,7 +15,7 @@ def run(test_suite):
     # 定义输出的文件位置和名字
     filename = "report.html"
     result = BeautifulReport(test_suite)
-    result.report(filename=filename, description='测试报告', report_dir=REPORT_DIR)
+    result.report(filename=filename, description='测试报告')
 
 
 if __name__ == '__main__':

@@ -3,7 +3,6 @@
 2、清空用户便签数据
 """
 
-
 import json
 import time
 from common.yamlOperation import ReadYaml
@@ -60,10 +59,10 @@ class BusinessNote:
         return note_ids
 
     @staticmethod
-    def clear_note(user_id, sid):
+    def clear_note(userid, sid):
         """
         清空用户便签数据
-        :param user_id:
+        :param userid:
         :param sid:
         :return: 0
         """
@@ -75,7 +74,7 @@ class BusinessNote:
         get_page_note_url = host + get_page_note_path
         start_index = 0
         rows = 0
-        url = get_page_note_url.format(userid=user_id, startindex=start_index, rows=rows)
+        url = get_page_note_url.format(userid=userid, startindex=start_index, rows=rows)
         res = api_re.note_get(url, sid)
         assert res.status_code == 200, "状态码错误"
         # print(res.json())
@@ -93,7 +92,7 @@ class BusinessNote:
             body = {
                 'noteId': note_id
             }
-            delete_note_res = api_re.note_post(delete_note_url, user_id, sid, body)
+            delete_note_res = api_re.note_post(delete_note_url, userid, sid, body)
             assert delete_note_res.status_code == 200, "状态码错误"
         path = api_config['cleanRecycleBin']['path']
         url = host + path
@@ -104,6 +103,29 @@ class BusinessNote:
         assert res.status_code == 200, "状态码错误"
         return 0
 
+    @staticmethod
+    def get_note_ids(userid, sid):
+        """
+        获取便签列表下的便签ID
+        :return:
+        """
+        envconfig = ReadYaml().env_yaml()
+        api_config = ReadYaml().api_yaml('api.yml')
+        host = envconfig['host']
+        get_page_note_path = api_config["getPageNote"]["path"]
+        get_page_note_url = host + get_page_note_path
+        api_re = ApiRe()
+        start_index = 0
+        rows = 10
+        url = get_page_note_url.format(userid=userid, startindex=start_index, rows=rows)
+        note_ids = []
+        res = api_re.note_get(url, sid)
+        for i in res.json()['webNotes']:
+            note_id = i['noteId']
+            note_ids.append(note_id)
+        print(res.json())
+        return note_ids
+
 
 if __name__ == '__main__':
     envConfig = ReadYaml().env_yaml()
@@ -111,5 +133,6 @@ if __name__ == '__main__':
     user_id = envConfig['user_id']
     a = BusinessNote()
 
-    print(a.multi_set_note(3,sid,user_id))
+    # print(a.multi_set_note(3, sid, user_id))
     # print(a.clear_note(user_id, sid))
+    print(a.get_note_ids(user_id, sid))
