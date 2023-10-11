@@ -12,19 +12,18 @@ from copy import deepcopy
 @class_case_log
 class SetNoteInfoInput(unittest.TestCase):
     envConfig = ReadYaml().env_yaml()
-    apiConfig = ReadYaml().api_yaml('api.yml')
+    apiConfig = ReadYaml().api_yaml('testData.yml','setNoteInfo')
     host = envConfig['host']
-    path = apiConfig['setNoteInfo']['path']
+    path = apiConfig['path']
     url = host + path
     sid = envConfig['sid']
     user_id = envConfig['user_id']
     apiRe = ApiRe()
-    input = ReadYaml().api_yaml('checkInput.yml')
-    strTestCase = input['checkInputString']
+    strTestCase = apiConfig['checkInputString']
     strTestCase[3][0]["value"] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     # print(userIdTestCase[3][0]["value"])
 
-    intTestCase = input['checkInputInter']
+    intTestCase = apiConfig['checkInputInter']
 
     base_body = {
         'noteId': 'note_id',
@@ -35,7 +34,7 @@ class SetNoteInfoInput(unittest.TestCase):
 
     # startIndexTestCase.pop(0)
     # print(startIndexTestCase.pop(0))
-
+    # @unittest.skip
     @parameterized.expand(strTestCase)
     def testCase01_noteId(self, dic):
         """上传/更新便签主体   userid验证"""
@@ -47,10 +46,62 @@ class SetNoteInfoInput(unittest.TestCase):
 
         step("STEP:获取首页便签列表")
         res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
-        self.assertEqual(500, res.status_code, msg='状态码错误')
-        expect = {'errorCode': int, 'errorMsg':str}
-        info(f'expect body:{expect}')
-        CheckTools().check_output(expect, res.json())
+        self.assertEqual(dic['code'], res.status_code, msg='状态码错误')
+        if dic['code'] == 200:
+            expect = {'responseTime':int, 'infoVersion': int, 'infoUpdateTime': int}
+            info(f'expect body:{expect}')
+            CheckTools().check_output(expect, res.json())
+        else:
+            expect = {'errorCode': int, 'errorMsg': str}
+            info(f'expect body:{expect}')
+            CheckTools().check_output(expect, res.json())
+
+    # @unittest.skip
+    @parameterized.expand(intTestCase)
+    def testCase02_star(self, dic):
+        """上传/更新便签主体   star验证"""
+
+        star = dic['value']
+        print(star)
+        body = deepcopy(self.base_body)
+        body['star'] = star
+
+        step("STEP:获取首页便签列表")
+        res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
+        # self.assertEqual(500, res.status_code, msg='状态码错误')
+        self.assertEqual(dic['code'], res.status_code, msg='状态码错误')
+        if dic['code'] == 200:
+            expect = {'responseTime':int, 'infoVersion': int, 'infoUpdateTime': int}
+            info(f'expect body:{expect}')
+            CheckTools().check_output(expect, res.json())
+        else:
+            expect = {'errorCode': int, 'errorMsg': str}
+            info(f'expect body:{expect}')
+            CheckTools().check_output(expect, res.json())
+
+    # @unittest.skip
+    @parameterized.expand(strTestCase)
+    def testCase02_star(self, dic):
+        """上传/更新便签主体   groupId验证"""
+
+        group_id = dic['value']
+        print(group_id)
+        body = deepcopy(self.base_body)
+        body['groupId'] = group_id
+
+        step("STEP:获取首页便签列表")
+        res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
+        # self.assertEqual(500, res.status_code, msg='状态码错误')
+        self.assertEqual(dic['code'], res.status_code, msg='状态码错误')
+        if dic['code'] == 200:
+            expect = {'responseTime':int, 'infoVersion': int, 'infoUpdateTime': int}
+            info(f'expect body:{expect}')
+            CheckTools().check_output(expect, res.json())
+        else:
+            expect = {'errorCode': int, 'errorMsg': str}
+            info(f'expect body:{expect}')
+            CheckTools().check_output(expect, res.json())
+
 
 if __name__ == '__main__':
     unittest.main()

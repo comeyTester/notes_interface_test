@@ -14,9 +14,9 @@ from copy import deepcopy
 @class_case_log
 class SetNoteInfoSmoking(unittest.TestCase):
     envConfig = ReadYaml().env_yaml()
-    apiConfig = ReadYaml().api_yaml('api.yml')
+    apiConfig = ReadYaml().api_yaml('testData.yml','setNoteInfo')
     host = envConfig['host']
-    path = apiConfig['setNoteInfo']['path']
+    path = apiConfig['path']
     url = host + path
     sid = envConfig['sid']
     user_id = envConfig['user_id']

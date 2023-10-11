@@ -1,3 +1,5 @@
+import os
+
 import yaml
 from common.getProjectPath import *
 
@@ -37,12 +39,17 @@ class ReadYaml:
                 return yaml.load(f, Loader=yaml.FullLoader)
 
     @staticmethod
-    def api_yaml(filename):
-        with open(os.path.join(DATA_DIR, filename), 'r', encoding='utf-8') as f:
-            return yaml.load(f, Loader=yaml.FullLoader)
+    def api_yaml(filename, filedir=None):
+        if filedir is not None:
+            path = os.path.join(DATA_DIR, filedir)
+            with open(os.path.join(path, filename), 'r', encoding='utf-8') as f:
+                return yaml.load(f, Loader=yaml.FullLoader)
+        else:
+            with open(os.path.join(DATA_DIR, filename), 'r', encoding='utf-8') as f:
+                return yaml.load(f, Loader=yaml.FullLoader)
 
 
 if __name__ == '__main__':
-    s = ReadYaml().api_yaml('checkInput.yml')
+    s = ReadYaml().api_yaml( 'testData.yml','getPageNote')
     print(s)
     # print(type(s['host']))
