@@ -13,9 +13,9 @@ from businessCommon.businessNote import BusinessNote
 @class_case_log
 class GetPageNoteSmoking(unittest.TestCase):
     envConfig = ReadYaml().env_yaml()
-    apiConfig = ReadYaml().api_yaml('api.yml')
+    apiConfig = ReadYaml().api_yaml('testData.yml','getPageNote',)
     host = envConfig['host']
-    path = apiConfig['getPageNote']['path']
+    path = apiConfig['path']
     url = host + path
     sid = envConfig['sid']
     user_id = envConfig['user_id']
@@ -97,3 +97,6 @@ class GetPageNoteSmoking(unittest.TestCase):
         info(f'expect body:{expect}')
         step("期望:1、接口返回状态码: 401")
         CheckTools().check_output(expect, res.json())
+
+if __name__ == '__main__':
+    unittest.main()

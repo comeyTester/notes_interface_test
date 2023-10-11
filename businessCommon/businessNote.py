@@ -99,7 +99,7 @@ class BusinessNote:
         body = {
             'noteIds': ['-1']
         }
-        res = api_re.note_post(url, user_id, sid, body)
+        res = api_re.note_post(url, userid, sid, body)
         assert res.status_code == 200, "状态码错误"
         return 0
 
@@ -134,5 +134,5 @@ if __name__ == '__main__':
     a = BusinessNote()
 
     # print(a.multi_set_note(3, sid, user_id))
-    # print(a.clear_note(user_id, sid))
-    print(a.get_note_ids(user_id, sid))
+    print(a.clear_note(user_id, sid))
+    # print(a.get_note_ids(user_id, sid))
