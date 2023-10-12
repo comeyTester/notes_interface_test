@@ -38,11 +38,11 @@ class SetNoteGroupSmoking(unittest.TestCase):
         body = deepcopy(self.base_body)
         body['groupId'] = group_id
         step('STEP:新增分组')
-        res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
-        self.assertEqual(200, res.status_code, msg='状态码错误')
+        set_note_content_res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
+        self.assertEqual(200, set_note_content_res.status_code, msg='状态码错误')
         expect = {'responseTime': int, 'updateTime': int}
         info(f'expect body:{expect}')
-        CheckTools().check_output(expect, res.json())
+        CheckTools().check_output(expect, set_note_content_res.json())
 
     @parameterized.expand(must_key)
     def testCase02_must_input(self, dic):
@@ -53,17 +53,17 @@ class SetNoteGroupSmoking(unittest.TestCase):
         body['groupId'] = group_id
         body.pop(dic['key'])
         step('STEP:新增分组')
-        res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
+        set_note_content_res = self.apiRe.note_post(self.url, self.user_id, self.sid, body)
         if dic['code'] == 500:
-            self.assertEqual(dic['code'], res.status_code, msg='状态码错误')
+            self.assertEqual(dic['code'], set_note_content_res.status_code, msg='状态码错误')
             expect = {'errorCode': -7, 'errorMsg': '参数不合法！'}
             info(f'expect body:{expect}')
-            CheckTools().check_output(expect, res.json())
+            CheckTools().check_output(expect, set_note_content_res.json())
         else:
-            self.assertEqual(dic['code'], res.status_code, msg='状态码错误')
+            self.assertEqual(dic['code'], set_note_content_res.status_code, msg='状态码错误')
             expect = {'responseTime': int, 'updateTime': int}
             info(f'expect body:{expect}')
-            CheckTools().check_output(expect, res.json())
+            CheckTools().check_output(expect, set_note_content_res.json())
 
     def testCase03_user_id(self):
         """新增分组  userid不正确"""
@@ -73,11 +73,11 @@ class SetNoteGroupSmoking(unittest.TestCase):
         body['groupId'] = group_id
         step('STEP:新增分组')
         user_id = '123'
-        res = self.apiRe.note_post(self.url, user_id, self.sid, body)
-        self.assertEqual(412, res.status_code, msg='状态码错误')
+        set_note_content_res = self.apiRe.note_post(self.url, user_id, self.sid, body)
+        self.assertEqual(412, set_note_content_res.status_code, msg='状态码错误')
         expect = {'errorCode': -1011, 'errorMsg': 'user change!'}
         info(f'expect body:{expect}')
-        CheckTools().check_output(expect, res.json())
+        CheckTools().check_output(expect, set_note_content_res.json())
 
     def testCase04_sid(self):
         """新增分组  sid不正确"""
@@ -87,11 +87,11 @@ class SetNoteGroupSmoking(unittest.TestCase):
         body['groupId'] = group_id
         step('STEP:新增分组')
         sid = 'abc'
-        res = self.apiRe.note_post(self.url, self.user_id,sid, body)
-        self.assertEqual(401, res.status_code, msg='状态码错误')
+        set_note_content_res = self.apiRe.note_post(self.url, self.user_id, sid, body)
+        self.assertEqual(401, set_note_content_res.status_code, msg='状态码错误')
         expect = {'errorCode': -2010, 'errorMsg': str}
         info(f'expect body:{expect}')
-        CheckTools().check_output(expect, res.json())
+        CheckTools().check_output(expect, set_note_content_res.json())
 
 
 if __name__ == '__main__':
