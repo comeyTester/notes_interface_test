@@ -1,0 +1,31 @@
+path: /v3/notesvr/get/notebody
+
+
+checkInputList:
+  - - key: "特殊值-空列表"
+      value: []
+      code: 500
+  - - key: "特殊值-0"
+      value: 0
+      code: 500
+  - - key: "其他格式-{}"
+      value: {}
+      code: 500
+  - - key: "空值-NULL"
+      value: null
+      code: 500
+  - - key: "存在子对象"
+      value: [234, [123, 123]]
+      code: 500
+  - - key: "其他格式-()"
+      value: ()
+      code: 500
+  - - key: "取值范围内外的值，边界值；"
+      value: "abc"
+      code: 500
+  - - key: "SQL安全验证1"
+      value: [‘ or ‘1=1]
+      code: 200
+  - - key: "SQL安全验证1"
+      value: [“ or ”1=1]
+      code: 200
