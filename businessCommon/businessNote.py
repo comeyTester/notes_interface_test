@@ -126,6 +126,92 @@ class BusinessNote:
         print(res.json())
         return note_ids
 
+    @staticmethod
+    def get_group_ids(userid, sid):
+        envconfig = ReadYaml().env_yaml()
+        api_config = ReadYaml().api_yaml('api.yml')
+        host = envconfig['host']
+        api_re = ApiRe()
+        path = api_config['getNoteGroup']['path']
+        url = host + path
+        body = {}
+        res = api_re.note_post(url, userid, sid, body)
+        group_ids = []
+        for i in res.json()['noteGroups']:
+            group_id = i['groupId']
+            group_ids.append(group_id)
+        print(res.json())
+        return group_ids
+
+    @staticmethod
+    def clear_group(userid, sid):
+        envconfig = ReadYaml().env_yaml()
+        api_config = ReadYaml().api_yaml('api.yml')
+        host = envconfig['host']
+        api_re = ApiRe()
+        group_ids = BusinessNote().get_group_ids(userid, sid)
+        path = api_config['deleteNoteGroup']['path']
+        url = host + path
+        body = {
+            'groupId': ""
+        }
+        for i in group_ids:
+            body['groupId'] = i
+            res = api_re.note_post(url, userid, sid, body)
+        return 0
+
+    @staticmethod
+    def multi_set_note_group(num, user_id, sid):
+        envconfig = ReadYaml().env_yaml()
+        api_config = ReadYaml().api_yaml('api.yml')
+        host = envconfig['host']
+        api_re = ApiRe()
+        path = api_config['setNoteGroup']['path']
+        url = host + path
+        group_ids = []
+        for i in range(num):
+            group_id = str(int(time.time() * 1000)) + '_test_groupId'
+            group_ids.append(group_id)
+            body = {
+                'groupId': group_id,
+                'groupName': 'test_groupName',
+                'order': 0
+            }
+            res = api_re.note_post(url, user_id, sid, body)
+        return group_ids
+
+    @staticmethod
+    def set_note_has_group_id(group_id, user_id, sid):
+        """新增一条便签，绑定指定的groupID"""
+        envconfig = ReadYaml().env_yaml()
+        api_config = ReadYaml().api_yaml('api.yml')
+        host = envconfig['host']
+        api_re = ApiRe()
+        note_info_path = api_config["setNoteInfo"]["path"]
+        note_info_url = host + note_info_path
+        note_id = str(int(time.time() * 1000)) + '_test_noteId'
+        body = {
+            'noteId': note_id,
+            'groupId': group_id
+        }
+        note_info_res = api_re.note_post(note_info_url, user_id, sid, body)
+        # print(note_info_res.json())
+        info_version = note_info_res.json()["infoVersion"]
+        set_note_content_body = {
+            'noteId': note_id,
+            'title': 'test_title',
+            'summary': 'test_summary',
+            'body': 'test_body',
+            'localContentVersion': info_version,
+            'BodyType': 0
+        }
+        note_content_path = api_config["setNoteContent"]["path"]
+        note_content_url = host + note_content_path
+        set_note_content_res = api_re.note_post(note_content_url, user_id, sid, set_note_content_body)
+        # print(set_note_content_res.json())
+        return note_id
+
+
 
 if __name__ == '__main__':
     envConfig = ReadYaml().env_yaml()
@@ -134,5 +220,7 @@ if __name__ == '__main__':
     a = BusinessNote()
 
     # print(a.multi_set_note(3, sid, user_id))
-    print(a.clear_note(user_id, sid))
+    # print(a.clear_note(user_id, sid))
     # print(a.get_note_ids(user_id, sid))
+    print(a.get_group_ids(user_id, sid))
+    # print(a.clear_group(user_id, sid))

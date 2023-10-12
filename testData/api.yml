@@ -23,3 +23,14 @@ getNoteBody:
 
 cleanRecycleBin:
   path: "/v3/notesvr/cleanrecyclebin"
+
+
+
+deleteNoteGroup:
+  path: "/v3/notesvr/delete/notegroup"
+
+getNoteGroup:
+  path: "/v3/notesvr/get/notegroup"
+
+setNoteGroup:
+  path: /v3/notesvr/set/notegroup
