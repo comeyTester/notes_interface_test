@@ -34,3 +34,26 @@ class ApiRe:
         info(f'res code:{res.status_code}')
         info(f'res body:{res.json()}')
         return res
+
+    @staticmethod
+    def note_patch(url, user_id, sid, data):
+        cookie = {
+            'wps_sid': sid
+        }
+        headers = {
+            'Content-Type': 'application/json',
+            'X-user-key': user_id,
+            'Cookie': f'wps_sid={sid}'
+        }
+        info(f'url:{url}')
+        info(f'headers:{headers}')
+        info(f'cookies:{cookie}')
+        info(f'data:{data}')
+        res = requests.patch(url=url, cookies=cookie, data=data, headers=headers)
+        info(f'res code:{res.status_code}')
+        info(f'res body:{res.json()}')
+        return res
+
+
+if __name__ == '__main__':
+    api_re = ApiRe()

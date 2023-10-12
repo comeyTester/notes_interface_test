@@ -128,6 +128,12 @@ class BusinessNote:
 
     @staticmethod
     def get_group_ids(userid, sid):
+        """
+    获取全部的groupID
+        :param userid:
+        :param sid:
+        :return:
+        """
         envconfig = ReadYaml().env_yaml()
         api_config = ReadYaml().api_yaml('api.yml')
         host = envconfig['host']
@@ -145,6 +151,12 @@ class BusinessNote:
 
     @staticmethod
     def clear_group(userid, sid):
+        """
+        清空组ID
+        :param userid:
+        :param sid:
+        :return:
+        """
         envconfig = ReadYaml().env_yaml()
         api_config = ReadYaml().api_yaml('api.yml')
         host = envconfig['host']
@@ -162,6 +174,13 @@ class BusinessNote:
 
     @staticmethod
     def multi_set_note_group(num, user_id, sid):
+        """
+        批量生成便签组ID
+        :param num:
+        :param user_id:
+        :param sid:
+        :return:
+        """
         envconfig = ReadYaml().env_yaml()
         api_config = ReadYaml().api_yaml('api.yml')
         host = envconfig['host']
@@ -211,6 +230,44 @@ class BusinessNote:
         # print(set_note_content_res.json())
         return note_id
 
+    @staticmethod
+    def delete_note(note_id, user_id, sid):
+        """
+        删除指定的便签数据
+        :param note_id:
+        :param user_id:
+        :param sid:
+        :return:
+        """
+        envconfig = ReadYaml().env_yaml()
+        api_config = ReadYaml().api_yaml('api.yml')
+        host = envconfig['host']
+        api_re = ApiRe()
+        delete_note_path = api_config["deleteNote"]["path"]
+        delete_note_url = host + delete_note_path
+        body = {
+            'noteId': note_id
+        }
+        delete_note_res = api_re.note_post(delete_note_url, user_id, sid, body)
+        return note_id
+
+    @staticmethod
+    def get_recycle_bin_list(user_id, sid):
+        envconfig = ReadYaml().env_yaml()
+        api_config = ReadYaml().api_yaml('api.yml')
+        host = envconfig['host']
+        api_re = ApiRe()
+        path = api_config["getRecycleBinList"]["path"]
+        start_index = 0
+        rows = 0
+        path = path.format(userid=user_id, startindex=start_index, rows=rows)
+        url = host + path
+        res = api_re.note_get(url, sid)
+        note_ids = []
+        for i in res.json()['webNotes']:
+            note_id = i['noteId']
+            note_ids.append(note_id)
+        return note_ids
 
 
 if __name__ == '__main__':
@@ -219,8 +276,11 @@ if __name__ == '__main__':
     user_id = envConfig['user_id']
     a = BusinessNote()
 
-    # print(a.multi_set_note(3, sid, user_id))
+    # print(a.multi_set_note(1, sid, user_id))
     # print(a.clear_note(user_id, sid))
     # print(a.get_note_ids(user_id, sid))
-    print(a.get_group_ids(user_id, sid))
+    # print(a.get_group_ids(user_id, sid))
     # print(a.clear_group(user_id, sid))
+    # note_id = "'1697082697940_test_noteId'"
+    # print(a.delete_note(note_id, user_id, sid))
+    print(a.get_recycle_bin_list(user_id, sid))
