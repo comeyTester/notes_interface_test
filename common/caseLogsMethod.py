@@ -16,7 +16,7 @@ def info(text):
     print(Fore.LIGHTGREEN_EX + text.strip())
     str_time = current_time.strftime("%Y%m%d")
     log_name = "{}_info.log".format(str_time)
-    with open(os.path.join(LOG_DIR,log_name), mode="a", encoding="utf-8") as f:
+    with open(os.path.join(LOG_DIR, log_name), mode="a", encoding="utf-8") as f:
         f.write(text)
 
 
@@ -29,7 +29,7 @@ def error(text):
     print(Fore.LIGHTRED_EX + text.strip())
     str_time = current_time.strftime("%Y%m%d")
     log_name = "{}_error.log".format(str_time)
-    with open(os.path.join(LOG_DIR,log_name), mode="a", encoding="utf-8") as f:
+    with open(os.path.join(LOG_DIR, log_name), mode="a", encoding="utf-8") as f:
         f.write(text)
 
 
@@ -42,8 +42,9 @@ def step(text):
     print(Fore.LIGHTBLUE_EX + text.strip())
     str_time = current_time.strftime("%Y%m%d")
     log_name = "{}_info.log".format(str_time)
-    with open(os.path.join(LOG_DIR,log_name), mode="a", encoding="utf-8") as f:
+    with open(os.path.join(LOG_DIR, log_name), mode="a", encoding="utf-8") as f:
         f.write(text)
+
 
 def func_case_log(func):
     @functools.wraps(func)  # 不影响原有变量
@@ -57,6 +58,7 @@ def func_case_log(func):
         info(f"Method Name: {method_name}")
         info(f"Test Description: {docstring}")
         return func(*args, **kwargs)
+
     return inner
 
 
