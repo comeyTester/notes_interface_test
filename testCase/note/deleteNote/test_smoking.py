@@ -29,7 +29,6 @@ class DeleteNoteSmoking(unittest.TestCase):
         """删除便签 主流程"""
         step('STEP:新增一条便签内容')
         note_ids = BusinessNote.multi_set_note(1, self.sid, self.user_id)
-
         body = {
             'noteId': note_ids[0]
         }

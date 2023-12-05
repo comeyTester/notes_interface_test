@@ -57,3 +57,15 @@ checkInputInter:
   - - key: "SQL安全验证1"
       value: “ or ”1=1
       code: 500
+
+
+star_enum:
+  - - key: "枚举值1是标星"
+      value: 1
+      code: 200
+  - - key: "0是不标星"
+      value: 0
+      code: 200
+  - - key: "非枚举值"
+      value: 3
+      code: 500

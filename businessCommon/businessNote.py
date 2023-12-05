@@ -116,7 +116,7 @@ class BusinessNote:
         get_page_note_url = host + get_page_note_path
         api_re = ApiRe()
         start_index = 0
-        rows = 10
+        rows = 0
         url = get_page_note_url.format(userid=userid, startindex=start_index, rows=rows)
         note_ids = []
         res = api_re.note_get(url, sid)
@@ -269,6 +269,32 @@ class BusinessNote:
             note_ids.append(note_id)
         return note_ids
 
+    @staticmethod
+    def get_note_info(note_id, user_id, sid):
+        """
+        获取的单个noteid的便签信息
+        :param note_id:
+        :param user_id:
+        :param sid:
+        :return:
+        """
+        envconfig = ReadYaml().env_yaml()
+        api_config = ReadYaml().api_yaml('api.yml')
+        host = envconfig['host']
+        get_page_note_path = api_config["getPageNote"]["path"]
+        get_page_note_url = host + get_page_note_path
+        api_re = ApiRe()
+        start_index = 0
+        rows = 0
+        url = get_page_note_url.format(userid=user_id, startindex=start_index, rows=rows)
+        note_info = []
+        res = api_re.note_get(url, sid)
+        for i in res.json()['webNotes']:
+            if i['noteId'] == note_id:
+                note_info.append(i)
+                # print(i)
+        return note_info
+
 
 if __name__ == '__main__':
     envConfig = ReadYaml().env_yaml()
@@ -283,4 +309,9 @@ if __name__ == '__main__':
     # print(a.clear_group(user_id, sid))
     # note_id = "'1697082697940_test_noteId'"
     # print(a.delete_note(note_id, user_id, sid))
-    print(a.get_recycle_bin_list(user_id, sid))
+    # print(a.get_recycle_bin_list(user_id, sid))
+    note_ids = a.multi_set_note(1, sid, user_id)
+    note_id = note_ids[0]
+    print(a.get_note_info(note_id,user_id,sid))
+    b = a.get_note_info(note_id,user_id,sid)
+    print(b[0]['star'])

@@ -3,12 +3,12 @@ from BeautifulReport import BeautifulReport
 from common.getProjectPath import *
 
 testLoader = unittest.TestLoader()
+
+
 # suite = testLoader.discover("./testCase", "test_set*.py")
 
 # runner = unittest.TextTestRunner()
 # runner.run(suite)
-
-
 
 
 def run(test_suite):
@@ -25,4 +25,3 @@ if __name__ == '__main__':
     else:
         suite = testLoader.discover("./testCase", "test_level1*.py")
     run(suite)
-

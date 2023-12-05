@@ -28,18 +28,20 @@ class SetNoteInfoSmoking(unittest.TestCase):
         'remindType': 0
     }
 
+    # note_info_body = {
+    #     'noteId': note_id,
+    #     'star': 0,
+    #     'remindTime': 0,
+    #     'remindType': 0,
+    #     'groupId':  #组ID
+    # }
+
     # @func_case_log
     def testCase01_major(self):
         """上传/更新便签主体 主流程"""
 
         note_id = str(int(time.time() * 1000)) + '_test_noteId'
-        # note_info_body = {
-        #     'noteId': note_id,
-        #     'star': 0,
-        #     'remindTime': 0,
-        #     'remindType': 0,
-        #     'groupId':  #组ID
-        # }
+
         body = deepcopy(self.base_body)
         body['noteId'] = note_id
         step("请求新增便签主体接口")
